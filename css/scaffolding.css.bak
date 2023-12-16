@@ -455,7 +455,7 @@ overflow: visible;
     width: 33.33333333333333%;
   }
   .col-md-3 {
-    width: 23%;
+    width: 25%;
   }
   .col-md-2 {
     width: 16.666666666666664%;
