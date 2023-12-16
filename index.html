@@ -62,7 +62,6 @@
                            <li><a href="#vehical-detaiils">Vehical Details Screen</a></li>
                         </ul>
                      </li>
-                     <li><a href="https://play.google.com/store/apps/details?id=com.schoolappniftysol" target="_blank">Download App</a></li>
                   </ul>
                </aside>
             </div>
@@ -210,15 +209,7 @@
                   <section id="Android-Customization">
                      <h3><strong>F). <u>Flutter Customization</u></strong></h3>
                      <br>
-                     <h5><strong>1. <u>Server Url</u></strong></h5>
-                     The server url can be changed from the StaticData.dart file in the values folder.
-                     <ol>
-                        <li>Open the /school_app_flutter\lib\utils\StaticData.dart</li>
-                        <li>Example : BASE=http://..... </li>
-                        <li>Change the BASE value to the server url.</li>
-                        <li>Replace Your Url BASE value.</li>
-                     </ol>
-                     <h5><strong>2.<u>Change Launcher icon</u></strong></h5>
+                     <h5><strong>1.<u>Change Launcher icon</u></strong></h5>
                      <p>Change the launcher icon in <code>Replace the default app icons:<br>
                         <strong> -> </strong>For Android, navigate to the <strong>android/app/src/main/res</strong> directory in your Flutter project. Replace the icons in the mipmap directories with your custom icons, following the size-specific folders (e.g., mipmap-mdpi, mipmap-hdpi, etc.).<br>
                         <strong> -> </strong>For iOS, navigate to the <strong> ios/Runner/Assets.xcassets/AppIcon</strong> appiconset directory in your Flutter project. Replace the default icons with your custom icons. Make sure to match the size and format requirements for each icon.</code> 
@@ -227,7 +218,7 @@
                      <p><strong>Note:</strong> You need the 512x512 px size for publishing to Google Play.</p>
                   </section>
                   <br>
-                  <h5><strong>3. <u> Run Application on Emulator</u></strong></h5>
+                  <h5><strong>2. <u> Run Application on Emulator</u></strong></h5>
                   <code>Create an AVD Definition as follows:</code>
                   <ol>
                      <li>Launch the Android Virtual Device Manager by selecting Tools -> Android -> AVD Manage or by clicking the AVD Manager icon in the toolbar</li>
@@ -249,7 +240,7 @@
                   <section id="sign-your-release-build">
                      <h3><strong>G).<u>Sign your release build</u></strong></h3>
                      <br>
-                     <p>To sign a release build for School Management App, you can follow these steps:
+                     <p>To sign a release build for Garage Master App, you can follow these steps:
                         <br>
                         <strong>Step 1: Generate a keystore file</strong>
                      <li>Right-click on the "android" directory and select "Flutter" -> "Open Android module in Android Studio"</li>
@@ -270,12 +261,12 @@
                      <li>Certificate: Enter some information about yourself for your certificate. This information is not displayed in your app, but is included in your certificate as part of the APK.</li>
                      </p>
                      <li>Once you complete the form, click <strong>OK</strong>.</li>
-                     <img alt="" src="images/schooljks.png" height = "400" width = "400"></li>
+                     <img alt="" src="images/garagejks.png" height = "400" width = "800"></li>
                      <li>Now Replace <strong>dasinfomedia app.jks</strong> File and Open <strong>key.properties</strong> File And Change your <strong>.jks</strong> file Detail</li>
                      <li>Now you can follow these steps and Generate Your Release Apk</li>
                      <img alt="" src="images/apk.png" height = "200" width = "500"></li>
                      <p>Click on "Build" → then click on "Flutter" → and finally click on "Build APK".
-                        <strong>school_app_flutter\build\app\outputs\apk\release</strong>This space will appear after the build is complete.
+                        <strong>garage_flutter_app\build\app\outputs\apk\release</strong>This space will appear after the build is complete.
                      </p>
                   </section>
                   <section id="garage-app-pages">
