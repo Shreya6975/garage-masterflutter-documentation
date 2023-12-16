@@ -1,0 +1,349 @@
+﻿<!DOCTYPE html>
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+   <!--<![endif]-->
+   <head>
+      <!-- Basic Page Needs
+         ================================================== -->
+      <meta charset="utf-8">
+      <title>Garage Master App - Documentation</title>
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- Mobile Specific Metas	
+         ================================================== -->
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+      <!-- CSS
+         ================================================== -->
+      <link rel="stylesheet" href="css/style.css" type="text/css"  media="all">
+      <link rel="stylesheet" href="css/print.css" type="text/css"  media="print">
+      <link href="http://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700|Roboto+Slab:300,400" 
+         rel="stylesheet" type="text/css">
+      <!-- JS
+         ================================================== -->
+      <script type="text/javascript" src="js/jquery.min.js" ></script>
+      <!--[if lt IE 9]>
+      <script src="js/modernizr.custom.11889.js" type="text/javascript"></script>
+      <![endif]-->
+      <!-- HTML5 Shiv events (end)-->
+      <!-- Favicons
+         ================================================== -->
+      <link rel="shortcut icon" href="images/favicon.ico">
+   </head>
+   <body>
+      <!-- Primary Page Layout
+         ================================================== -->
+      <div id="wrap" class="colorskin-0">
+         <!-- end-header -->
+         <section class="container">
+         <div class="row">
+            <div id="header-sm">
+               <div class="col-md-3 logo"> <a href="index.html"><img src="images/mojoomla_logo.jpg" width="150" id="img-logo" alt="logo"></a> </div>
+               <div class="col-md-8 col-md-offset-1 desc">
+                  <h4 class="slight">Garage Master App - Garage Management System</h4>
+                  <h5 class="slight"><small>Documented by Mojoomla - at June 01 2023</small></h5>
+               </div>
+            </div>
+            <div class="col-md-4">
+               <aside id="side-nav">
+                  <div class="logo"> <img src="images/mojoomla_logo.png" id="img-logo" alt="mojoomla" style="margin-bottom:20px;"> </div>
+                  <ul id="top-menu">
+                     <li><a href="#introduction">Introduction</a></li>
+                     <li><a href="#setting-up-android-project">setting up flutter Project</a></li>
+                     <li><a href="#flutter-version">Flutter Version</a></li>
+                     <li><a href="#change-application-name">Change Application Name</a></li>
+                     <li><a href="#changing-package-name">Changing Package name</a></li>
+                     <li><a href="#Android-Customization">Flutter Customization</a></li>
+                     <li><a href="#sign-your-release-build">Create Release Build</a></li>
+                     <li>
+                        <a href="#garage-app-pages">Garage App Overview</a>
+                        <ul>
+                           <li><a href="#fronted-login">Login Screen</a></li>
+                           <li><a href="#dashboard-view">Dashboard Screen</a></li>
+                           <li><a href="#vehical-detaiils">Vehical Details Screen</a></li>
+                        </ul>
+                     </li>
+                     <li><a href="https://play.google.com/store/apps/details?id=com.schoolappniftysol" target="_blank">Download App</a></li>
+                  </ul>
+               </aside>
+            </div>
+            <div class="col-md-8">
+               <section  id="Introduction">
+               <div id="header" class="row">
+                  <div class="col-md-3 logo" style="background-color:#2a3f54"> <a href="index.html"><img src="images/logo.png" width="230px" height="70px" id="img-logo" alt="logo"></a> </div>
+                  <div class="col-md-8 col-md-offset-1 desc">
+                     <h4 class="slight">Garage Master App - Garage Management System<sub><small></small></sub></h4>
+                     <h5 class="slight"><small> Documented by Mojoomla</a> - at June 01 2023</small></h5>
+                  </div>
+               </div>
+               <hr class="vertical-space2">
+               <p align="center"><img src="images/preview-image.png"></p>
+			   <section id="introduction">
+                  <h3><strong>A). <u>Introduction</u> </strong></h3>
+                  <p align="justify">Turn your Garage into a super-smooth operation with Garage Master App. The Auto service management Mobile App is essential for car repair, Bike repair and DIY mechanics! Our app simplifies your automotive journey, ensuring your vehicle runs smoothly and efficiently. To make it works, make sure to purchase the Garage Master Software
+               </section>
+			   <section id="setting-up-android-project">
+                  <hr class="vertical-space2">
+                  <h3><strong>B). <u>Setting up flutter project</u></strong></h3>
+                  <br>
+                  <h5><strong>1. <u>Requirement</u></strong></h5>
+                  <ol >
+                     <li>Latest <a href="http://developer.android.com/sdk/index.html" target="_blank">Android Studio</a></li>
+                     <li>Windows XP (32-bit), Vista (32- or 64-bit), or Windows 7 And up (32- or 64-bit) </li>
+                     <li>Mac OS X 10.5.8 or later (x86 only)</li>
+                     <li>Linux (tested on Ubuntu Linux, Lucid Lynx) </li>
+                     <li>GNU C Library (glibc) 2.7 or later is required. </li>
+                     <li>On Ubuntu Linux, version 8.04 or later is required.64-bit distributions must be capable of running 32-bit applications. </li>
+                     <li>4 GB RAM minimum, 8 GB RAM recommended.</li>
+                     <li>Free Disk At least 1 GB for Android SDK, emulator system images, and caches.</li>
+                     <li>Oracle® Java Development Kit (JDK) 8 and up.</li>
+                  </ol>
+                  <h5><strong>2. <u>Installing the latest version of Android Studio.</u></strong></h5>
+                  <code>Garage Master App is built with the latest Android studio <strong>Hedgehog | 2023.1.1</strong></br><strong> NOTE:</strong> There are several other tools to build and run android projects.</code>
+                  <ol>
+                     <li>	Go to the <a href = "http://developer.android.com/sdk/index.html" > Android Developer Page</a> </li>
+                     <li> Download the Android Studio. This should contain the latest version of Android Studio </li>
+                     <li> Install Android studio. more information Go to <a href = "https://developer.android.com/studio/install.html">install Android studio</a></li>
+                     <!-- <li> Run Eclipse.exe </li> -->
+                  </ol>
+                  <h5><strong>3. <u>Update the IDE and SDK Tools</u></strong></h5>
+                  <ol>
+                     <li>The Flutter SDK Manager provides the SDK tools, platforms, and other components you need to develop your apps.</li>
+                     <li>Garage Master App minimum required SDK Platform API level <Strong>21</strong></li>
+                     <li>Install SDK Platform API levels.</li>
+                     <li>Open the Preferences window by clicking File -> Settings.</li>
+                     <li>In the left panel, click Appearance & Behavior -> System Settings -> Android SDK.</li>
+                     <li>Select required SDK platforms</li>
+                     <li> Click ok.</li>
+                  </ol>
+                  <br>
+               </section>
+               <section id = "flutter-version">
+                  <h3><strong>C).<u>Flutter Version</u></strong></h3>
+                  <p>environment: </br>
+                     sdk: '>=2.18.4 <3.0.0' 
+                  </p>
+               </section>
+               <section id="change-application-name">
+                  <h3><strong>D).<u>Change Application name</u></strong></h3>
+                  <p>Change the application name To change the name of a Flutter app, you need to modify the appropriate files and configurations. Here's a step-by-step guide to help you change the app name:		
+                  </p>
+                  <ol>
+                     <li>Open the Flutter project in your preferred integrated development environment (IDE) or code editor.</li>
+                     <li>Locate the <strong>pubspec.yaml</strong> file in the root directory of your Flutter project.</li>
+                     <li>Open the <strong>pubspec.yaml</strong>  file and find the <strong>name </strong> field. By default, it should be something like <strong>name: your_app_name</strong>.</li>
+                     <li>Change the value of the <strong>name </strong> field to your desired app name. Make sure to follow the naming conventions for Flutter projects (lowercase letters, underscores instead of spaces, etc.). For example, you can change it to <strong>name: my_flutter_app</strong>.</li>
+                     <li>Save the <strong>pubspec.yaml</strong> file.</li>
+                     <li>Open the <strong>android</strong> directory in your Flutter project.</li>
+                     <li>Locate the <strong>app</strong> directory inside the <strong>android</strong> directory and open it.</li>
+                     <li>Inside the <strong>app</strong> directory, find the <strong>build.gradle</strong> file (usually located at <strong>android/app/build.gradle</strong>).</li>
+                     <li>Open the <strong>build.gradle</strong> file and locate the <strong>defaultConfig</strong> section.</li>
+                     <li>In the <strong>defaultConfig</strong> section, find the <strong>applicationId<strong> field. The value of this field represents the unique identifier of your app.</li>
+                     <li>Change the value of the <strong>applicationId<strong> field to match your desired app package name. The package name should typically follow the reverse domain name notation. For example, if your domain is <strong>example.com</strong>, you can use <strong>applicationId: com.example.myflutterapp</strong>.</li>
+                     <li>Save the <strong>build.gradle</strong> file.</li>
+                     <li>Now, you need to update the app name in the iOS configuration.</li>
+                     <li>Open the <strong>ios</strong> directory in your Flutter project.</li>
+                     <li>Inside the <strong>ios</strong> directory, find the <strong>Runner</strong> directory and open it.</li>
+                     <li>Locate the <strong>Info.plist</strong> file (usually located at <strong>ios/Runner/Info.plist</strong>).</li>
+                     <li>
+                        Open the <strong>Info.plist<strong> file and find the 
+                        <strong>
+                           <key>CFBundleName</key>
+                        </strong>
+                        section.
+                     </li>
+                     <li>
+                        Change the value of the 
+                        <strong>
+                           <string>
+                        </strong>
+                        tag below 
+                        <strong>
+                           <key>CFBundleName</key>
+                        </strong>
+                        to your desired app name. For example, 
+                        <strong>
+                           <string>My Flutter App</string>
+                        </strong>
+                        .
+                     </li>
+                     <li>Save the <strong>Info.plist</strong> file.</li>
+                  </ol>
+                  <p><strong>Note :</strong>After following these steps, the name of your Flutter app should be updated. Remember to clean and rebuild your project to ensure the changes take effect.</p>
+               </section>
+               <section id="changing-package-name">
+                  <h3><strong>E). <u>Changing Package name</u></strong></h3>
+                  <p>To change the package name of a Flutter application, you need to update it in several places within your project. Follow these steps to change the package name:</p>
+                  <ol>
+                     <li>Rename the package folder: Open the root directory of your Flutter project and navigate to the lib folder. Rename the package folder to the desired new package name.</li>
+                     <li>Update the package name in the pubspec.yaml file: Open the pubspec.yaml file located in the root directory of your project. Update the name field with the new package name.</li>
+                     <li>Update the Android package name:</li>
+                     <ul>
+                        <li>• Open the AndroidManifest.xml file located at android/app/src/main/AndroidManifest.xml.
+                        <li>
+                        <li>
+                           • Change the package attribute of the 
+                           <manifest>
+                           tag to the new package name.
+                        </li>
+                     </ul>
+                     <li>Update the iOS bundle identifier:</li>
+                     <ul>
+                        <li>• Open the Info.plist file located at ios/Runner/Info.plist.
+                        <li>
+                        <li>• Change the value of the CFBundleIdentifier key to the new package name.</li>
+                     </ul>
+                     <li>Update import statements and references:</li>
+                     <ul>
+                        <li>• In your Dart code files, update any import statements that reference the old package name to import the new package name.
+                        <li>
+                        <li>• Replace any references to the old package name within your code with the new package name.</li>
+                     </ul>
+                     <li>Clean and rebuild the project: Run the following command in the root directory of your project to clean and rebuild your Flutter project:</li>
+                     <ul>
+                        <li>• flutter clean
+                        <li>
+                        <li>• flutter pub get</li>
+                        <li>• flutter run</li>
+                     </ul>
+                  </ol>
+                  <p>After following these steps, your Flutter application should have the updated package name throughout the project. Make sure to update any dependencies or configurations that reference the old package name as well.</p>
+                  <section id="Android-Customization">
+                     <h3><strong>F). <u>Flutter Customization</u></strong></h3>
+                     <br>
+                     <h5><strong>1. <u>Server Url</u></strong></h5>
+                     The server url can be changed from the StaticData.dart file in the values folder.
+                     <ol>
+                        <li>Open the /school_app_flutter\lib\utils\StaticData.dart</li>
+                        <li>Example : BASE=http://..... </li>
+                        <li>Change the BASE value to the server url.</li>
+                        <li>Replace Your Url BASE value.</li>
+                     </ol>
+                     <h5><strong>2.<u>Change Launcher icon</u></strong></h5>
+                     <p>Change the launcher icon in <code>Replace the default app icons:<br>
+                        <strong> -> </strong>For Android, navigate to the <strong>android/app/src/main/res</strong> directory in your Flutter project. Replace the icons in the mipmap directories with your custom icons, following the size-specific folders (e.g., mipmap-mdpi, mipmap-hdpi, etc.).<br>
+                        <strong> -> </strong>For iOS, navigate to the <strong> ios/Runner/Assets.xcassets/AppIcon</strong> appiconset directory in your Flutter project. Replace the default icons with your custom icons. Make sure to match the size and format requirements for each icon.</code> 
+                     </p>
+                     <img src="images/change-logo.png" id="change-img-logo">
+                     <p><strong>Note:</strong> You need the 512x512 px size for publishing to Google Play.</p>
+                  </section>
+                  <br>
+                  <h5><strong>3. <u> Run Application on Emulator</u></strong></h5>
+                  <code>Create an AVD Definition as follows:</code>
+                  <ol>
+                     <li>Launch the Android Virtual Device Manager by selecting Tools -> Android -> AVD Manage or by clicking the AVD Manager icon in the toolbar</li>
+                     <li>In the Your Virtual Devices screen, click Create Virtual Device.</li>
+                     <li>In the Select Hardware screen, select a phone device, such as Nexus 6, and then click Next.</li>
+                     <li>In the System Image screen, choose the desired system image for the AVD and click Next.</li>
+                     <code> If you don't have a particular system image installed, you can get it by clicking the download link.</code>
+                     <li>Verify the configuration settings (for your first AVD, leave all the settings as they are), and then click Finish.</li>
+                     <code>For more information about using AVDs <a href = "https://developer.android.com/studio/run/managing-avds.html" > Create and Manage Virtual Devices.</a></code>
+                  </ol>
+                  <code>Run the app from Android Studio as follows:</code>
+                  <ol>
+                     <li>In Android Studio, select your project and click Run from the toolbar.</li>
+                     <li>In the Select Deployment Target window, select your emulator and click OK.</li>
+                  </ol>
+                  <code>It can take a few minutes for the emulator to start. You may have to unlock the screen. When you do, My First App appears on the emulator screen.</code>
+                  </br>    
+                  <br>
+                  <section id="sign-your-release-build">
+                     <h3><strong>G).<u>Sign your release build</u></strong></h3>
+                     <br>
+                     <p>To sign a release build for School Management App, you can follow these steps:
+                        <br>
+                        <strong>Step 1: Generate a keystore file</strong>
+                     <li>Right-click on the "android" directory and select "Flutter" -> "Open Android module in Android Studio"</li>
+                     <li>In the Generate Signed Bundle or APK dialog, select Android App Bundle or APK and click Next.</li>
+                     <li>Below the field for Key store path, click Create new.</li>
+                     <li>On the New Key Store window, provide the following information for your keystore and key, as shown in figure 2.<br>
+                        <img alt="" src="images/key-store.png" height = "400" width = "400">
+                     </li>
+                     <p>•  Keystore
+                     <li><strong>Key store path:</strong> Select the location where your keystore should be created. Also, a file name should be added to the end of the location path with the .jks extension.</li>
+                     </p>
+                     <li><strong>Password:</strong> Create and confirm a secure password for your keystore.</li>
+                     </p>
+                     <p>•  Key
+                     <li><strong>Alias:</strong> Enter an identifying name for your key.</li>
+                     <li><strong>Password:</strong> Create and confirm a secure password for your key. This should be the same as your keystore password.</li>
+                     <li><strong>Validity (yeas):</strong> Set the length of time in years that your key will be valid. Your key should be valid for at least 25 years, so you can sign app updates with the same key through the lifespan of your app.</li>
+                     <li>Certificate: Enter some information about yourself for your certificate. This information is not displayed in your app, but is included in your certificate as part of the APK.</li>
+                     </p>
+                     <li>Once you complete the form, click <strong>OK</strong>.</li>
+                     <img alt="" src="images/schooljks.png" height = "400" width = "400"></li>
+                     <li>Now Replace <strong>dasinfomedia app.jks</strong> File and Open <strong>key.properties</strong> File And Change your <strong>.jks</strong> file Detail</li>
+                     <li>Now you can follow these steps and Generate Your Release Apk</li>
+                     <img alt="" src="images/apk.png" height = "200" width = "500"></li>
+                     <p>Click on "Build" → then click on "Flutter" → and finally click on "Build APK".
+                        <strong>school_app_flutter\build\app\outputs\apk\release</strong>This space will appear after the build is complete.
+                     </p>
+                  </section>
+                  <section id="garage-app-pages">
+                     <h3><strong>H).<u>Garage App Overview</u></strong></h3>
+                     <br>
+                     <section id="fronted-login">
+                        <h3><strong><u>Login Screen:</u></strong></h3>
+                        <p> You will see this login screen.You can now login.</p>
+						<strong> Login Admin ID And Password For Demo</strong>
+                        <p> <strong>Email :</strong>customer@gmail.com<br><strong>Password :</strong>customer</p>
+                        <br>        
+                        <img alt="" src="images/1.png" height = "350" width = "200"><br><br>           
+                        </ol>
+                     </section>
+                     <section id = "dashboard-view">
+                        <h3><strong><u>Dashboard Screen</u></strong></h3>
+                        <p> In the dashboard screen we have use the Webview.</p>
+                        <p> Integrating a web view into Flutter dashboard can greatly enhance the functionality and user experience of your app, allowing you to seamlessly integrate web-based content alongside native features.</p>
+                     <li>Customize the WebView settings according to your requirements.</li>
+                     <li>Replace Api Base Url with the URL you want to load.</li>
+
+                        <img alt="" src="images/6.png" height = "350" width = "200">
+                        <img alt="" src="images/2.png" height = "350" width = "200">
+                        <img alt="" src="images/3.png" height = "350" width = "200">
+						
+						<p><br>Change the URL, you need to modify the appropriate files and configurations. Here's a step-by-step guide to help you change the URL:		
+                  </p>
+                  <ol>
+                     <li>Open the Flutter project in your preferred integrated development environment (IDE) or code editor.</li>
+                     <li>Locate the <strong>lib</strong> folder in the root directory of your Flutter project.</li>
+                     <li>Open the <strong>Util</strong>  folder and find the <strong>StaticData.dart </strong> File. By default, it should be something like <strong>apiBaseUrl: "https://www.google.com/"</strong>.</li>
+                     <li>Change the value of the <strong>apiBaseUrl </strong> field to your desired URL. Make sure to follow the naming conventions for Flutter projects (lowercase letters, underscores instead of spaces, etc.). For example, you can change it to <strong>apiBaseUrl: "https://www.garage.com/</strong>.</li>
+                     <li>Save the <strong>StaticData.dart</strong> file.</li>
+                  </ol>
+                  <p><strong>Note :</strong>After following these steps, the name of your Flutter app should be updated. Remember to clean and rebuild your project to ensure the changes take effect.</p>
+                     </section>
+                     <br>
+                     <section id = "vehical-detaiils">
+                        <h3><strong><u> Vehical Details Screen</u></strong></h3>
+                        <strong> Vehicle Information:</strong>
+						 <li><strong>License Plate Number: </strong>  The unique identifier assigned to the vehicle's license plate.</li>
+						 <li><strong>Vehicle Type and Model:</strong> The brand and specific model of the vehicle.</li>
+                     <li><strong>Fuel Type::</strong> The type of fuel the vehicle uses (e.g., gasoline, diesel, electric).</li>
+                     <li><strong>Year of Manufacture:</strong> The year the vehicle was manufactured.</li>
+                     
+					 <img alt="" src="images/4.png" height = "350" width = "200">
+                     </section>
+                     <!-- start-footer-->
+                     <div id="footer"> © 2023 Mojoomla All Rights Reserved. </div>
+                     <!-- end-footer -->
+                  </section>
+            </div>
+            <!-- end-side-content -->
+         </div>
+         <!-- start-footer-->
+         <div id="footer-sm"> © 2023 Mojoomla All Rights Reserved. </div>
+         <!-- end-footer -->
+         <div class="white-space"></div>
+         </section>
+         <!-- container -->
+         <!-- end-footer -->
+         <span id="scroll-top"><a class="scrollup"></a></span> 
+      </div>
+      <!-- end-wrap -->
+      <!-- End Document
+         ================================================== -->
+      <script src="js/jquery.jcarousel.min.js"></script>
+      <script type="text/javascript" src="js/doubletaptogo.js" ></script>
+      <script type="text/javascript" src="js/cube-custom.js" ></script>
+   </body>
+</html>
