@@ -68,7 +68,7 @@
             <div class="col-md-8">
                <section  id="Introduction">
                <div id="header" class="row">
-                  <div> <a href="index.html"><img src="images/logo.jpg" width="180px" height="80px" id="img-logo" alt="logo"></a> </div>
+                  <div class="col-md-3 logo"> <a href="index.html"><img src="images/logo.jpg" width="230px" height="80px" id="img-logo" alt="logo"></a> </div>
                   <div class="col-md-8 col-md-offset-1 desc">
                      <h4 class="slight">Garage Master App - Garage Management System<sub><small></small></sub></h4>
                      <h5 class="slight"><small> Documented by Mojoomla</a> - at December 16 2023</small></h5>
